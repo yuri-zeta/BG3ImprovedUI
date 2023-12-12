@@ -168,6 +168,9 @@
 			<DataTrigger Binding="{Binding IDString}" Value="Vanguard">
 				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/VanguardClass/ClassIcons/Vanguard.png"/>
 			</DataTrigger>
+			<DataTrigger Binding="{Binding IDString}" Value="Adonis">
+				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/VanguardClass/ClassIcons/Adonis.png"/>
+			</DataTrigger>
 			<!--EDIT HERE-->
 		</Style.Triggers>
 	</Style>
@@ -216,6 +219,9 @@
 			</DataTrigger>
 			<DataTrigger Binding="{Binding IDString}" Value="Vanguard">
 				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/VanguardClass/ClassIcons/hotbar/Vanguard_hotbar.png"/>
+			</DataTrigger>
+			<DataTrigger Binding="{Binding IDString}" Value="Adonis">
+				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/VanguardClass/ClassIcons/hotbar/Adonis_hotbar.png"/>
 			</DataTrigger>
 			<!--EDIT HERE-->
 		</Style.Triggers>
@@ -690,6 +696,15 @@
 			<DataTrigger Binding="{Binding SubclassIDString}" Value="Elementalist">
 				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/VanguardClass/ClassIcons/Elementalist.png"/>
 			</DataTrigger>
+			<DataTrigger Binding="{Binding SubclassIDString}" Value="Emily">
+				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/Adonis/ClassIcons/Emily.png"/>
+			</DataTrigger>
+			<DataTrigger Binding="{Binding SubclassIDString}" Value="Ronsha">
+				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/Adonis/ClassIcons/Ronsha.png"/>
+			</DataTrigger>
+			<DataTrigger Binding="{Binding SubclassIDString}" Value="Yuri">
+				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/Adonis/ClassIcons/Yuri.png"/>
+			</DataTrigger>
 			<!--EDIT HERE-->
 		</Style.Triggers>
 	</Style>
@@ -849,6 +864,15 @@
 			</DataTrigger>
 			<DataTrigger Binding="{Binding SubclassIDString}" Value="Elementalist">
 				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/VanguardClass/ClassIcons/hotbar/Elementalist_hotbar.png"/>
+			</DataTrigger>
+				<DataTrigger Binding="{Binding SubclassIDString}" Value="Emily">
+				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/Adonis/ClassIcons/hotbar/Emily_hotbar.png"/>
+			</DataTrigger>
+			<DataTrigger Binding="{Binding SubclassIDString}" Value="Ronsha">
+				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/Adonis/ClassIcons/hotbar/Ronsha_hotbar.png"/>
+			</DataTrigger>
+			<DataTrigger Binding="{Binding SubclassIDString}" Value="Yuri">
+				<Setter Property="Source" Value="pack://application:,,,/GustavNoesisGUI;component/Assets/Adonis/ClassIcons/hotbar/Yuri_hotbar.png"/>
 			</DataTrigger>
 			<!--EDIT HERE-->
 		</Style.Triggers>

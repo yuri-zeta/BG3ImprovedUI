@@ -183,6 +183,8 @@
 	<ImageSource x:Key="GZI_Psionic_FocusUnavailable" >pack://application:,,,/GustavNoesisGUI;component/Assets/FollowersOfZerthimon/Shared/Resources/ico_classRes_GZI_Psionic_Focus_missing.png</ImageSource>
 	<ImageSource x:Key="Z_TheurgyChannelArcana">pack://application:,,,/GustavNoesisGUI;component/Assets/Z_TheurgyWizard/Shared/Resources/ico_theurgist_ChannelArcana.png</ImageSource>
 	<ImageSource x:Key="Z_TheurgyChannelArcanaUnavailable">pack://application:,,,/GustavNoesisGUI;component/Assets/Z_TheurgyWizard/Shared/Resources/ico_theurgist_ChannelArcana_missing.png</ImageSource>
+	<ImageSource x:Key="HolyLight">pack://application:,,,/GustavNoesisGUI;component/Assets/Adonis/Shared/Resources/ico_HolyLight.png</ImageSource>
+	<ImageSource x:Key="HolyLightUnavailable">pack://application:,,,/GustavNoesisGUI;component/Assets/Adonis/Shared/Resources/ico_HolyLightUnavailable.png</ImageSource>
 	<!-- EDIT HERE -->
 
 	<!-- This is the icon that appears on the tooltip -->
@@ -1651,6 +1653,16 @@
 			<ImageSource x:Key="Missing">/GustavNoesisGUI;component/Assets/Z_TheurgyWizard/Shared/Resources/ico_theurgist_ChannelArcana_missing.png</ImageSource>
 		</ControlTemplate.Resources>
 		<ContentControl ContentTemplate="{StaticResource ActionResources.ActionGroup.ActionPoint}"/>
+	</ControlTemplate>
+	
+	<ControlTemplate x:Key="ActionResources.ActionGroup.WeaponChargeGroup" TargetType="ls:LSActionPoint">
+		<ControlTemplate.Resources>
+			<ImageSource x:Key="Highlight">/GustavNoesisGUI;component/Assets/Adonis/Shared/Resources/ico_HolyLight.png</ImageSource>
+			<ImageSource x:Key="Available">/GustavNoesisGUI;component/Assets/Adonis/Shared/Resources/ico_HolyLight.png</ImageSource>
+			<ImageSource x:Key="Used">/GustavNoesisGUI;component/Assets/Adonis/Shared/Resources/ico_HolyLightUsed.png</ImageSource>
+			<ImageSource x:Key="Missing">/GustavNoesisGUI;component/Assets/Adonis/Shared/Resources/ico_HolyLightUnavailable.png</ImageSource>
+		</ControlTemplate.Resources>
+	  <ContentControl ContentTemplate="{StaticResource ActionResources.ActionGroup.ActionPoint}"/>
 	</ControlTemplate>
 	<!-- EDIT HERE -->
 
